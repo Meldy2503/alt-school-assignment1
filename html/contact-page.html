@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <p class="logo">Alt__School</p>
+        <ul>
+          <li><a href="./about-me.html"> About Me</a></li>
+          <li><a href="./contact-page.html">Contact Me</a></li>
+          <li><a href="./register.html">Register</a></li>
+          <li><a href="./login.html">Login</a></li>
+          <li><a href="./calculator.html">Calculator</a></li>
+          <li><a href="./calculatorFlex.html">Flex-Calculator</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <h2 class="title">Contact Me</h2>
+        <form action="#">
+          <input
+            required
+            type="text"
+            id="name"
+            placeholder="Enter your full name"
+          />
+          <br />
+
+          <input
+            required
+            type="email"
+            id="name"
+            placeholder="Enter your email"
+          />
+          <br />
+
+          <textarea
+            name="message"
+            id="message"
+            cols="20"
+            rows="5"
+            placeholder="Enter your message(s)"
+          ></textarea
+          ><br />
+
+          <select name="priority" id=" priority">
+            <option value="none" selected disabled hidden>
+              Select your priority
+            </option>
+            <option value="front-end">Front-end Engineer</option>
+            <option value="back-end">Back-end Engineer</option>
+            <option value="cloud">Cloud Engineer</option>
+            <option value="full-stack">Full-stack Engineer</option>
+          </select>
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <footer>
+        <p>&copy; altschoolafrica 2022</p>
+      </footer>
+    </main>
+  </body>
+</html>
